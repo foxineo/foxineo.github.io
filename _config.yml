@@ -3,9 +3,10 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email:
-description: A simple and awesome blog theme powered by jekyll.
+title: Neo
+email: neo.caixiaoqing@gmail.com
+description: Neo's blog
+creator: <a href="http://github.com/foxineo">@Neo</a>
 url: # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
 
@@ -14,18 +15,18 @@ keywords: ["blog", "jekyll"]
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:         '+0800'
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
 permalink:         /articles/:year-:month/:title
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+# kramdown:
+#   auto_ids: true
+#   footnote_nr: 1
+#   entity_output: as_char
+#   toc_levels: 1..6
+#   enable_coderay: false
 
 #
 ###################################
@@ -33,11 +34,11 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  name: Neo
+  avatar: avatar.jpg
+  job: "iOS developer"
+  bio: "Talk is cheap, show me the code."
+  email: neo.caixiaoqing@gmail.com
   disqus-shortname:
   twitter: #username
   facebook: #username
@@ -48,7 +49,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: foxineo
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
