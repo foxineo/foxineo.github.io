@@ -1,0 +1,14 @@
+{
+  "appclips": {
+    "apps": ["T95BEYWF4Q.com.pingenie.locklyhome.Clip"]
+  },
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "T95BEYWF4Q.com.pingenie.locklyhome.Clip",
+        "paths": ["/clip-unlock/*"]
+      }
+    ]
+  }
+} 
