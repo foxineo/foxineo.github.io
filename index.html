@@ -129,11 +129,12 @@
             var timestamp = Date.now();
             
             // 构建Universal Link URL
-            var url = "https://foxineo.github.io?" + 
-                     "deviceId=" + encodeURIComponent(deviceId) + 
-                     "&action=" + encodeURIComponent(action) + 
-                     "&autoConnect=" + autoConnect +
-                     "&ts=" + timestamp;
+            var url = "https://foxineo.github.io/clip-unlock?";
+            // var url = "https://foxineo.github.io/clip-unlock?" + 
+            //          "deviceId=" + encodeURIComponent(deviceId) + 
+            //          "&action=" + encodeURIComponent(action) + 
+            //          "&autoConnect=" + autoConnect +
+            //          "&ts=" + timestamp;
             
             document.getElementById('urlDisplay').innerText = url;
             return url;
