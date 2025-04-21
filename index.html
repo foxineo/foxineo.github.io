@@ -143,7 +143,11 @@
         function openAppClip() {
             var url = updateUrlDisplay();
             // 重定向到该URL
-            window.location = url;
+            // window.location = url;
+
+            setTimeout(function() {
+                window.location = url;
+            }, 100);
         }
         
         // 初始更新URL显示
