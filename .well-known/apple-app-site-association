@@ -6,7 +6,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "T95BEYWF4Q.com.pingenie.locklyhome.Clip",
+        "appID": "T95BEYWF4Q.com.pingenie.locklyhome",
         "paths": ["/clip-unlock", "/clip-unlock?*"]
       }
     ]
